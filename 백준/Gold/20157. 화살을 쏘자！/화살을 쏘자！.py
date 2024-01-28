@@ -4,8 +4,8 @@ num = {}
 
 def gcd(num_1, num_2):
     while num_2 != 0:
-        gradi = num_1 % num_2
-        num_1, num_2 = num_2, gradi
+        r = num_1 % num_2
+        num_1, num_2 = num_2, r
     return abs(num_1)
 
 for i in range(n):
