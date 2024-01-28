@@ -1,4 +1,4 @@
-# [Gold V] 화살을 쏘자! - 20157 
+# [Gold V] 화살을 쏘자! - 20157  
 
 [문제 링크](https://www.acmicpc.net/problem/20157) 
 
