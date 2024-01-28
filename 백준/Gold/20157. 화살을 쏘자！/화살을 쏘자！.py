@@ -34,4 +34,4 @@ for j in gradient:
     else:
         num[j] = 1
 
-print(max(num.values()))
+print(max(num.values())) 
