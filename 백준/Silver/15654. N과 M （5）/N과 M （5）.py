@@ -1,7 +1,7 @@
 import sys
 
 
-def combination(level):
+def permutation(level):
     if level == m:
         print(*path)
         return
@@ -10,7 +10,7 @@ def combination(level):
             continue
         used[i] = 1
         path.append(arr[i])
-        combination(level+1)
+        permutation(level+1)
         used[i] = 0
         path.pop()
 
@@ -20,4 +20,4 @@ arr = list(map(int, sys.stdin.readline().rstrip().split()))
 arr.sort()
 path = []
 used = [0]*n
-combination(0)
+permutation(0)
