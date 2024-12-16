@@ -1,0 +1,1 @@
+print(1 if input().split().count('1') > 1 else 2)
