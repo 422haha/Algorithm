@@ -1,0 +1,1 @@
+print('flight'*(240 < int(input()) > eval(input().replace(*' +'))) or 'high speed rail')
