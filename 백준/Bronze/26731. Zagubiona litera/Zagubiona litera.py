@@ -1,0 +1,1 @@
+print(chr(2015-sum(map(ord, input()))))
