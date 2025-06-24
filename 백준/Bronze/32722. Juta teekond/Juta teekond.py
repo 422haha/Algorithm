@@ -1,0 +1,1 @@
+print("JAH" if input() in "13" and input() in "68" and input() in "25" else "EI")
